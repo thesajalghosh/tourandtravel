@@ -1,0 +1,18 @@
+.home{
+    position: relative;
+}
+.home__image{
+    position: absolute;
+}
+img{
+    width: 100vw;
+    height: 99.4vh;
+    background-size: cover;
+}
+.home__contents{
+    position: absolute;
+    margin-top: 15%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
