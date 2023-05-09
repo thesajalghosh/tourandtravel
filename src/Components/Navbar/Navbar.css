@@ -1,33 +1,28 @@
-
 .navbar{
-    position: fixed;
     display: flex;
-    justify-content: center;
-    width: 100vw;
     
-    z-index: 1;
-   
-}
-.navbar__container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    padding: 15px;
-    
-    width: 80vw;
-    background-color: white;
+    padding: 10px;
     margin-top: 15px;
-    border-radius: 12px;
-  
+    position: fixed;
+   
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
 }
-.rightpart{
+
+.right{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
+    
+
 }
-.navbar__item{
+.link{
     text-decoration: none;
+    color: black;
+    
 }

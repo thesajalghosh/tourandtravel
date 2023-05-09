@@ -1,21 +1,17 @@
 import React from 'react'
-import One from "../../assets/1.jpg"
-import './Home.css'
+import Hero from '../../Components/Hero/Hero'
+import Destination from '../../Components/Destination/Destination'
+import Recent from "../../Components/Recent/Recent"
 
 const Home = () => {
-    return (
-        <div className='home'>
-            <div className='home__image'>
-                <img src={One} alt='homepage' className='homepage__image' /> </div>
-            <div className='home__contents'>
-                <div className='contents'>
-                    <p className='home__heading'>Your Journey Your Story</p>
-                    <p className='home__subtitle'>Choose Your Favourite Destination</p>
-                    <button>Travel Plan</button>
-                </div>
-            </div>
-        </div>
-    )
+  return (
+    <div>
+    <Hero/>
+    <Destination/>
+    <Recent/>
+      
+    </div>
+  )
 }
 
 export default Home
