@@ -25,14 +25,14 @@ const Destination = () => {
 
           </div>
           <div className='right__part'>
-            <div className='left__image'><img className='leftImg' src={Two} /></div>
-            <div className='right__image'><img className='rightImg' src={Three} /></div>
+            <div className='left__image'><img className='leftImg' src={Two} alt="leftImage" /></div>
+            <div className='right__image'><img className='rightImg' src={Three} alt='rightImage' /></div>
           </div>
         </div>
         <div className='lower__gallery'>
           <div className='left__part img__part'>
-          <div className='left__image '><img className='leftImg lower__left' src={four} /></div>
-            <div className='right__image'><img className='rightImg  lower__right' src={five} /></div>
+          <div className='left__image '><img className='leftImg lower__left' src={four} alt='leftimage' /></div>
+            <div className='right__image'><img className='rightImg  lower__right' src={five} alt='rightimage' /></div>
           </div>
           <div className='right__part content__part'>
           <div className='part__heading'>Taal Volcano,  Batangas</div>

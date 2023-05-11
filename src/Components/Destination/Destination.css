@@ -90,3 +90,37 @@
 .lower__right{
     margin-top: 40px;
 }
+
+@media (max-width:980px)  {
+
+.destination__heading{
+    font-size: 25px;
+}
+.destination__subtitle{
+    font-size: 15px;
+}
+.upper__gallery{
+    display: flex;
+    flex-direction: column;
+}
+.lower__gallery{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.part__heading{
+    font-size: 19px;
+}
+.part__para{
+    font-size: 14px;
+}
+.leftImg{
+    height: 300px;
+    width: 180px;
+}
+.rightImg{
+    height: 300px;
+    width: 180px;
+}
+
+}

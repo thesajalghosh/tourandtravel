@@ -31,4 +31,20 @@
   font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width:980px)  {
+
+.hero__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__heading{
+  font-size: 30px;
+}
+
+
+}
+
 

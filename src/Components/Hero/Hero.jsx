@@ -2,7 +2,9 @@ import React from 'react'
 import './Hero.css'
 import One from '../../assets/12.jpg'
 
+
 const Hero = () => {
+
     return (
         <div className='hero' style={{ backgroundImage: `url(${One})` }}>
             <div className='hero__content'>

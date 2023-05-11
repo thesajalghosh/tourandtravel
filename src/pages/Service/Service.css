@@ -1,0 +1,32 @@
+.service__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service__hero{
+    
+}
+
+.service__image{
+    height: 60vh;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    width: 100vw;
+    display: flex;
+justify-content: center;
+border-radius: 0;  
+margin-bottom: 20px;
+
+
+
+}
+.service__heading{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
